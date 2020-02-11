@@ -1,0 +1,11 @@
+Contact: https://hackerone.com/cloudflare
+# If you'd like to encrypt, please do so within the the body of the message.
+Contact: mailto:security@cloudflare.com
+Contact: https://www.cloudflare.com/abuse/
+Preferred-Languages: en
+ 
+Encryption: https://www.cloudflare.com/pgp/security-at-cloudflare-pubkey-06A67236.txt
+Canonical: https://www.cloudflare.com/.well-known/security.txt
+ 
+Policy: https://www.cloudflare.com/disclosure
+Hiring: https://www.cloudflare.com/careers/departments/security

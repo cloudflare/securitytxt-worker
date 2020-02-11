@@ -1,0 +1,6 @@
+name = "securitytxt-worker"
+type = "webpack"
+account_id = ""
+zone_id = ""
+workers_dev = false
+route = "https://example.com/*"
