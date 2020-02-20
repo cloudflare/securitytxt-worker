@@ -16,3 +16,5 @@ Flow:
   - Tell us where that place is
 - Sign the security.txt
 - Deploy
+
+## Steps for deployment

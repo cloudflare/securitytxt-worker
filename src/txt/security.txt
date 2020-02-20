@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Contact: https://hackerone.com/cloudflare
 # If you'd like to encrypt, please do so within the the body of the message.
 Contact: mailto:security@cloudflare.com
@@ -9,3 +12,19 @@ Canonical: https://www.cloudflare.com/.well-known/security.txt
  
 Policy: https://www.cloudflare.com/disclosure
 Hiring: https://www.cloudflare.com/careers/departments/security
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEDnvvEuWaqyVBavSjIi/eggamcjYFAl5PF3cACgkQIi/eggam
+cjZ/lQ/+LYxLNTfNdt06WOUjng0d140246bjLC0/UBv2mO/flcXA5emvU1C1c6Z2
+JdfrFlOVLjS79SD10Ub+sJmOS6l+oO33kVB12MwN9ndGW8A1wiqzfkdiWUVTmNcz
+d6HFbJEnJPvD92ke1ZSAsX2mw3gJ+0ef3eNBxMOtkhtyl+LM/8j02vlZjYlmqLVT
+GTwEQav72cOdhcyl/BxrFJUc8kAYY11O8uiUBJdVUzbiCSn6L3TF8b6XN95Ce/Zx
+pqCY7/sefcYeQMRXMDf3JxuiLLZsmXw1siYPijpM8+lqRO62uD2UyVePF5A46+y7
+xwUNWWjWe5OOTXxPteWQSwdAWoOxd1NB63iy51qHi7GyImK5EleH3v99RERvfWOA
+mOeQsxh4qaEFfyBUOer8fYMglTedoYmaK1YDlSRhNywOQQhwBEaee678taxx6jlV
+DrkCwBj4GCo7rkNoAdK0VOHkrQMZuY+UjelAUNWNPrYdfBYOI2WhpHQYV7Uro8nm
+hQsoQtSrZvkrt//ZraNFi5JliFRfhJYZLv0G5d4iwnu51Ao2wlM5UtHYki9+gyWw
+wATaq9coN26bYMasgluH0GFd+9q1bGu0xIlal4/NUoLQ2cy6fTkrBzDEJPCJ379x
+QQCQFDQdZlKuDWvzW4lZyN7mfsxv98jvfru6vgfiLvl6uA8D92I=
+=q7/6
+-----END PGP SIGNATURE-----

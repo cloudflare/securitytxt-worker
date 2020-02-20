@@ -1,4 +1,3 @@
-const { EnvironmentPlugin } = require('webpack')
 const path = require('path')
 
 module.exports = {
@@ -15,9 +14,4 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new EnvironmentPlugin({
-      KEY: 'VALUE',
-    }),
-  ],
 }
