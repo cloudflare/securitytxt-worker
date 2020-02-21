@@ -1,7 +1,12 @@
 Contact: https://hackerone.com/cloudflare
-# If you'd like to encrypt, please do so within the the body of the message.
+
+# If you'd like to encrypt your message, please do so within the the body of the message.
+# Our email system doesn't handle PGP-MIME well.
 Contact: mailto:security@cloudflare.com
+
+# All abuse reports should be submitted to our Trust & Safety team through our dedicated page.
 Contact: https://www.cloudflare.com/abuse/
+
 Preferred-Languages: en
  
 Encryption: https://www.cloudflare.com/pgp/security-at-cloudflare-pubkey-06A67236.txt
