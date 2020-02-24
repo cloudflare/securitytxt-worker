@@ -6,7 +6,7 @@ clean:
 	rm -rf ./worker/ ./dist/
 
 sign: clean
-	gpg --local-user 06A67236 -o src/txt/security.txt --clearsign src/txt/security.txt.template
+	gpg --local-user security@cloudflare.com -o src/txt/security.txt --clearsign src/txt/security.txt.template
 
 deploy: sign
 	wrangler publish

@@ -72,6 +72,13 @@ import pubKey from './txt/my-pub-key.txt'
 } else if (url.includes('/gpg/my-pub-key.txt')) {
 ```
 
+and then update the email within the Makefile:
+
+```
+sign: clean
+	gpg --local-user your@email.com -o src/txt/security.txt --clearsign src/txt/security.txt.template
+```
+
 #### 3. Deploy
 
 With that, you're ready to go!
