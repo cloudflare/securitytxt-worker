@@ -1,4 +1,4 @@
-# security.txt as a service -- Built on Cloudflare workers
+# security.txt as a service -- Built on Cloudflare Workers
 
 This is the worker that serves [security.txt](https://securitytxt.org) on [cloudflare.com](https://cloudflare.com)
 
