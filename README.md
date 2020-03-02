@@ -18,6 +18,9 @@ We wanted to open source this code to allow anyone to easily deploy security.txt
 
 Deploying should take about 5 minutes or less.
 
+The `Expires` field introduced in Draft-9 is appended to the template
+automatically at a default value of 1 year after deployment.
+
 ### Dependencies
 
 **Debian based systems**
@@ -34,7 +37,7 @@ Please have [homebrew](https://brew.sh/) installed.
 brew install gnupg
 ```
 
-⚠️ Additionally, this project requires [wrangler](https://github.com/cloudflare/wrangler) to be installed for builds/deploys.
+⚠️ Additionally, this project requires [wrangler](https://github.com/cloudflare/wrangler) to be installed for builds/deploys. In turn, this means that you'll need [Node installed](https://nodejs.org/en/download/package-manager/).
 
 ### Publishing on your zone
 
