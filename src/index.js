@@ -13,11 +13,11 @@ const handleRequest = async request => {
   const { url } = request
   if (url.includes('/.well-known/security.txt')) {
     return new Response(securityTxt, {
-      headers: { 'content-type': 'text/plain' }, // security.txt
+      headers: { 'content-type': 'text/plain; charset=utf-8' }, // security.txt
     })
   } else if (url.includes('/gpg/security-cloudflare-public-06A67236.txt')) {
     return new Response(pubKey, {
-      headers: { 'content-type': 'text/plain' }, // GPG Public key
+      headers: { 'content-type': 'text/plain; charset=utf-8' }, // GPG Public key
     })
   } else {
     return fetch(request) // Pass to origin

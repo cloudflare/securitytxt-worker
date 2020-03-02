@@ -3,4 +3,4 @@ type = "webpack"
 account_id = ""
 zone_id = ""
 workers_dev = false
-routes = ["cloudflare.com/.well-known/security.txt", "cloudflare.com/gpg/your-public-key.txt"]
+routes = ["https://www.cloudflare.com/.well-known/security.txt", "https://www.cloudflare.com/gpg/your-public-key.txt"]

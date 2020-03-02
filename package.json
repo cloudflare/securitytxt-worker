@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/cloudflare/securitytxt-worker#readme",
   "dependencies": {
+    "dayjs": "^1.8.21",
     "raw-loader": "^4.0.0"
   }
 }
