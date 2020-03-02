@@ -59,13 +59,14 @@ and fill in the following values (account_id and zone_id are found on your Cloud
 
 You will need to have a pre-existing GPG key in your keyring that's additionally uploaded to some public key server (tutorial here: [https://wiki.debian.org/Keysigning]()).
 
-Export the public key and replace the one in this repo:
+1. Export the public key and replace the one in this repo:
 
 ```sh
-mv src/txt/security-cloudflare-public-06A67236.txt src/txt/my-pub-key.txt && gpg --export --armor your@email.com > src/txt/my-pub-key.txt
+mv src/txt/security-cloudflare-public-06A67236.txt src/txt/my-pub-key.txt
+gpg --export --armor your@email.com > src/txt/my-pub-key.txt
 ```
 
-Then, update the path within the workers script to the new name of the public key file:
+2. Then, update the path within the workers script to the new name of the public key file:
 
 ```js
 import pubKey from './txt/my-pub-key.txt'
@@ -75,7 +76,7 @@ import pubKey from './txt/my-pub-key.txt'
 } else if (url.includes('/gpg/my-pub-key.txt')) {
 ```
 
-and then update the email within the Makefile:
+3. Finally, update the email within the Makefile:
 
 ```
 sign: clean
