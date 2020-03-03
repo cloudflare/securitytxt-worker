@@ -26,5 +26,6 @@ const handleRequest = async request => {
 
 // main()
 addEventListener('fetch', event => {
+  event.passThroughOnException()
   event.respondWith(handleRequest(event.request))
 })
