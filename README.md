@@ -7,7 +7,11 @@ This is the worker that serves [security.txt](https://securitytxt.org) on [cloud
 From https://securitytxt.org,
 
 ```
-When security risks in web services are discovered by independent security researchers who understand the severity of the risk, they often lack the channels to disclose them properly. As a result, security issues may be left unreported. security.txt defines a standard to help organizations define the process for security researchers to disclose security vulnerabilities securely.
+When security risks in web services are discovered by independent security researchers who
+understand the severity of the risk, they often lack the channels to disclose them properly.
+As a result, security issues may be left unreported. security.txt defines a standard to help
+organizations define the process for security researchers to disclose security vulnerabilities
+securely.
 ```
 
 Many reporters have difficulty finding our disclosure page (https://www.cloudflare.com/disclosure) and often submit tickets to our support staff who then inform them about our HackerOne program. The security.txt standard was submitted to the IETF to address this problem: https://tools.ietf.org/html/draft-foudil-securitytxt-08
