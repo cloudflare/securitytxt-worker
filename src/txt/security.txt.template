@@ -9,7 +9,7 @@ Contact: https://www.cloudflare.com/abuse/
 
 Preferred-Languages: en
  
-Encryption: https://www.cloudflare.com/pgp/security-at-cloudflare-pubkey-06A67236.txt
+Encryption: https://www.cloudflare.com/gpg/security-at-cloudflare-pubkey-06A67236.txt
 Canonical: https://www.cloudflare.com/.well-known/security.txt
  
 Policy: https://www.cloudflare.com/disclosure

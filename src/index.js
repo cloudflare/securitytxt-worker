@@ -15,13 +15,14 @@ const handleRequest = async request => {
     return new Response(securityTxt, {
       headers: { 'content-type': 'text/plain; charset=utf-8' }, // security.txt
     })
-  } else if (url.includes('/gpg/security-cloudflare-public-06A67236.txt')) {
+  } else if (url.includes('/gpg/security-at-cloudflare-pubkey-06A67236.txt')) {
     return new Response(pubKey, {
       headers: { 'content-type': 'text/plain; charset=utf-8' }, // GPG Public key
     })
-  } else {
-    return fetch(request) // Pass to origin
   }
+  return new Response('', {
+    status: 404,
+  })
 }
 
 // main()
