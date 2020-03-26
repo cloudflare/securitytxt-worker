@@ -61,7 +61,7 @@ and fill in the following values (account_id and zone_id are found on your Cloud
 
 #### 2. Setup GPG
 
-You will need to have a pre-existing GPG key in your keyring that's additionally uploaded to some public key server (tutorial here: [https://wiki.debian.org/Keysigning]()).
+You will need to have a pre-existing GPG key in your keyring that's additionally uploaded to some public key server (tutorial here: [https://wiki.debian.org/Keysigning](https://wiki.debian.org/Keysigning)).
 
 1. Export the public key and replace the one in this repo:
 
