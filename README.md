@@ -89,6 +89,12 @@ sign: clean
 
 #### 3. Deploy
 
+Export Cloudflare API TOKEN
+
+```sh
+export CF_API_TOKEN="abcabcabc"
+```
+
 With that, you're ready to go!
 
 ```sh
