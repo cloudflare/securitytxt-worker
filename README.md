@@ -59,6 +59,12 @@ and fill in the following values (account_id and zone_id are found on your Cloud
 - zone_id
 - routes
 
+You will need to obtain a *scoped API* token to publish the worker.  
+You can do this at (https://dash.cloudflare.com/profile/api-tokens),
+and choose the "Edit Cloudflare Workers" template.
+We will later call the obtained token: `${TOKEN}`
+
+
 #### 2. Setup GPG
 
 You will need to have a pre-existing GPG key in your keyring that's additionally uploaded to some public key server (tutorial here: [https://wiki.debian.org/Keysigning](https://wiki.debian.org/Keysigning)).
@@ -89,14 +95,10 @@ sign: clean
 
 #### 3. Deploy
 
-Export Cloudflare API TOKEN
+To deploy with the token, you can choose one of the following options:
 
-```sh
-export CF_API_TOKEN="abcabcabc"
-```
+a. Execute: `wrangler config`.
+   Enter token: `${TOKEN}`.
+   Run: `make deploy`
 
-With that, you're ready to go!
-
-```sh
-make deploy
-```
+b. Run: `CF_API_TOKEN=${token} make deploy`
