@@ -62,7 +62,7 @@ and fill in the following values (account_id and zone_id are found on your Cloud
 You will need to obtain a *scoped API* token to publish the worker.  
 You can do this at (https://dash.cloudflare.com/profile/api-tokens),
 and choose the "Edit Cloudflare Workers" template.
-We will later call the obtained token: `${TOKEN}`
+We will later call the obtained token: `${TOKEN}`.
 
 
 #### 2. Setup GPG
@@ -97,8 +97,8 @@ sign: clean
 
 To deploy with the token, you can choose one of the following options:
 
-a. Execute: `wrangler config`.
-   Enter token: `${TOKEN}`.
+a. Execute: `wrangler config`. 
+   Enter token: `${TOKEN}`. 
    Run: `make deploy`
 
 b. Run: `CF_API_TOKEN=${token} make deploy`
