@@ -1,6 +1,8 @@
 name = "securitytxt-worker"
 type = "webpack"
+webpack_config = "webpack.config.js"
 account_id = ""
 zone_id = ""
 workers_dev = false
 routes = ["https://www.cloudflare.com/.well-known/security.txt", "https://www.cloudflare.com/gpg/security-cloudflare-public-06A67236.txt"]
+
