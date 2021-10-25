@@ -10,8 +10,8 @@ const main = async () => {
     './src/txt/security.txt.temp',
     `\nExpires: ${dayjs()
       .add(365, 'day')
-      // Thu, 31 Dec 2020 18:37:07 -0800
-      .format('ddd, D MMM YYYY HH:mm:ss ZZ')}\n\n`,
+      // 2022-10-25T15:51:04.223Z
+      .toISOString()}\n\n`,
     function(err) {
       if (err) throw err
       console.log('Wrote expiration field!')
